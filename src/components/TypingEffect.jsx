@@ -25,10 +25,10 @@ export default function TypingEffect() {
   return (
     <>
       <div className='flex items-center justify-center h-screen bg-black font-extrabold text-white'>
-        <div className="text-center sm:text-left sm:ml-10 md:ml-20 lg:ml-40">
-          <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+        <div className="text-center sm:text-left sm:ml-10 md:ml-20 lg:ml-80 ml-80">
+          <div className=" lg:text-7xl">
             <Typewriter
-              className="text-5xl"
+              
               text="WELCOME TO MY PORTFOLIO"
               delay={100}
               cursor
@@ -38,7 +38,7 @@ export default function TypingEffect() {
               loop={false}
             />
           </div>
-          <div className="mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl ml-50">
+          <div className="mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl  sm:ml-10  md:ml-20 ml-40">
             {showSecond && (
               <Typewriter
                 text="Pushpender"
