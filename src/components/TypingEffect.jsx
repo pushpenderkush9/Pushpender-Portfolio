@@ -17,7 +17,7 @@ export default function TypingEffect() {
     if (showSecond) {
       const redirect = setTimeout(() => {
         navigate('/Dashboard');
-      }, 5000);
+      }, 2800);
       return () => clearTimeout(redirect);
     }
   }, [showSecond, navigate]);
