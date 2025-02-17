@@ -17,7 +17,7 @@ export default function TypingEffect() {
     if (showSecond) {
       const redirect = setTimeout(() => {
         navigate('/Dashboard');
-      }, 2500);
+      }, 5000);
       return () => clearTimeout(redirect);
     }
   }, [showSecond, navigate]);
@@ -25,7 +25,7 @@ export default function TypingEffect() {
   return (
     <>
       <div className='flex items-center justify-center h-screen bg-black font-extrabold text-white'>
-        <div className="text-center sm:text-left sm:ml-10 md:ml-20 lg:ml-80 ml-80">
+        <div className="text-center sm:text-left sm:ml-10 md:ml-20 lg:ml-50 ">
           <div className=" lg:text-7xl">
             <Typewriter
               

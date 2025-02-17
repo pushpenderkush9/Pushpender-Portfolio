@@ -40,12 +40,16 @@ const projects = [
 ];
 
 
-export default function Projects() {
+export default function ProjectList() {
     const navigate = useNavigate();
-function handleSeeMore (){
-    navigate("/Projects");
-}
+    function handleBack (){
+        navigate("/Dashboard");
+    }
     return (
+        <div className="bg-black">
+            <button onClick={handleBack} className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition  ">Back </button>
+        <h1 className="text-5xl font-extrabold text-white text-center p-10 bg-black">MY PROJECT LIST</h1>
+        
         <div className="min-h-screen flex flex-col items-center py-10 px-5"
             >
             <h1 className="text-center text-white text-4xl md:text-5xl font-extrabold mb-8">PROJECTS</h1>
@@ -68,7 +72,6 @@ function handleSeeMore (){
                     </div>
                 ))}
             </div>
-            {projects.length > 5 && <button  onClick={handleSeeMore} className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition ">See More</button>}
+            </div>
         </div>
-    );
-}
+    )}
