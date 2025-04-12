@@ -1,28 +1,16 @@
 import { useNavigate } from "react-router-dom";
 const projects = [
     {
-        name: "Image Search Engine",
-        img: "./projects/image.png",
-        link: "https://github.com/pushpenderkush9/image-search-engine",
-        description: "A search engine for images using advanced filtering."
+        name: "SKill@meet",
+        img: "./projects/skill.png",
+        link: "https://github.com/pushpenderkush9/Skill-meet",
+        description: "A social media platform where people can meet up and chat ."
     },
     {
-        name: "Image Search Engine 2",
-        img: "./projects/image.png",
-        link: "https://github.com/pushpenderkush9/image-search-engine",
-        description: "Another version of an image search engine with more features."
-    },
-    {
-        name: "Image Search Engine",
-        img: "./projects/image.png",
-        link: "https://github.com/pushpenderkush9/image-search-engine",
-        description: "A search engine for images using advanced filtering."
-    },
-    {
-        name: "Image Search Engine 2",
-        img: "./projects/image.png",
-        link: "https://github.com/pushpenderkush9/image-search-engine",
-        description: "Another version of an image search engine with more features."
+        name: "3d flip card",
+        img: "./projects/3d.png",
+        link: "https://github.com/pushpenderkush9/3d-flip-card",
+        description: "A 3D Flip card as a digital Card for contact."
     },
     {
         name: "Image Search Engine",
@@ -31,11 +19,23 @@ const projects = [
         description: "A search engine for images using advanced filtering."
     },
     {
-        name: "Image Search Engine 2",
-        img: "./projects/image.png",
+        name: "Weather App ",
+        img: "./projects/wheater.png",
         link: "https://github.com/pushpenderkush9/image-search-engine",
-        description: "Another version of an image search engine with more features."
-    }
+        description: "Its a Weather app which can show temparature and humidity of a place based on api data."
+    },
+    {
+        name: "Responsive Page",
+        img: "./projects/responsive-page.png",
+        link: "https://github.com/pushpenderkush9/OBISIP/tree/main/responsive-landing-page",
+        description: "A responsive and amazing desgin for desgining web sites."
+    },
+    {
+        name: "STS-STT-TTS",
+        img: "./projects/voice.png",
+        link: "https://github.com/pushpenderkush9/STS-STT-TTS/tree/main/voicetovoice",
+        description: "A react based Voice to  voice converter which can convert voice into voice and voice into text ."
+    
 
 ];
 
