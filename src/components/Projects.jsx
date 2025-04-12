@@ -35,6 +35,7 @@ const projects = [
         img: "./projects/voice.png",
         link: "https://github.com/pushpenderkush9/STS-STT-TTS/tree/main/voicetovoice",
         description: "A react based Voice to  voice converter which can convert voice into voice and voice into text ."
+    }
     
 
 ];
