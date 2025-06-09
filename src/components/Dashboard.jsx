@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Services from "./Services";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Experience from "./Experience";
 
 export default function Dashboard () {
     
@@ -28,6 +29,7 @@ export default function Dashboard () {
                       <Front />
                       <About />
                       <Skills />
+                      <Experience/>
                       <Services />
                       <Projects />
                       <Contact />

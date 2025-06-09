@@ -4,7 +4,7 @@ export default function About() {
        
         <div className="w-full sm:w-1/2 md:w-1/2 flex justify-center">
           <img
-            src="photo.jpg"
+            src="./profile/profile.jpeg"
             alt="About Me"
             className="w-72  sm:w-1/2 md:w-96 lg:w-[400px] h-auto rounded-2xl shadow-lg"
           />

@@ -38,7 +38,7 @@ export default function TypingEffect() {
               loop={false}
             />
           </div>
-          <div className="mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl  sm:ml-10  md:ml-20 ml-40">
+          <div className="mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:ml-40">
             {showSecond && (
               <Typewriter
                 text="Pushpender"

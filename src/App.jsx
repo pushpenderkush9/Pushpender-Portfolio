@@ -14,6 +14,7 @@ function App() {
         <Route path='/' element={<TypingEffect />} />
         <Route path='/Dashboard' element={<Dashboard />} />
         <Route path='/Projects' element={<ProjectList />}/>
+        
       </Routes>
     </Router>
    
